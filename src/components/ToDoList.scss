@@ -1,0 +1,13 @@
+div.list-item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between  ;
+  width: 500px;
+  margin: 10px;
+  p{
+    margin: 0 20px;
+    word-break: break-all;
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
