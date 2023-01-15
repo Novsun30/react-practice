@@ -11,3 +11,9 @@ div.list-item{
     font-weight: 600;
   }
 }
+
+@media screen and (max-width:600px){
+  div.list-item{
+    width: 90%;
+  }
+}
