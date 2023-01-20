@@ -14,5 +14,12 @@ module.exports = {
     quotes: ["error", "double"],
     "react/prop-types": ["off"],
     "react/jsx-no-bind": ["off"],
+    "jsx-a11y/label-has-associated-control": [
+      2,
+      {
+        controlComponents: ["Input"],
+        depth: 3,
+      },
+    ],
   },
 };

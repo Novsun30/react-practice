@@ -18,8 +18,15 @@ module.exports = {
         options: { presets: ["@babel/env"] },
       },
       {
-        test: /\.s[ac]ss$/i,
-        use: ["style-loader", "css-loader", "sass-loader"],
+        test: /\.svg$/,
+        use: [
+          {
+            loader: "file-loader",
+            options: {
+              outputPath: "images", // 我習慣會把圖片輸出到 images 這個資料夾
+            },
+          },
+        ],
       },
     ],
   },
